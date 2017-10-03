@@ -16,7 +16,7 @@ type Resource struct {
 	Available         bool   `json:"available"`
 	Location          string `json:"location"`
 	QualityCheck      string `json:"quality_check"`
-	Utid              string `json:"utid"`
+	UTID              string `json:"utid"`
 	SerialNumber      string `json:"serial_number"`
 	SoftwareVersion   string `json:"software_version"`
 	Recommendations   string `json:"recommendations"`
@@ -34,7 +34,7 @@ func (r *Resource) MarshalEditor() ([]byte, error) {
 			View: editor.Input("DescriptorName", r, map[string]string{
 				"label":       "DescriptorName",
 				"type":        "text",
-				"placeholder": "Enter the DescriptorName here",
+				"placeholder": "Enter the Descriptor Name here",
 			}),
 		},
 		editor.Field{
@@ -68,28 +68,28 @@ func (r *Resource) MarshalEditor() ([]byte, error) {
 			View: editor.Input("QualityCheck", r, map[string]string{
 				"label":       "QualityCheck",
 				"type":        "text",
-				"placeholder": "Enter the QualityCheck here",
+				"placeholder": "Enter the Quality Check here",
 			}),
 		},
 		editor.Field{
-			View: editor.Input("Utid", r, map[string]string{
-				"label":       "Utid",
+			View: editor.Input("UTID", r, map[string]string{
+				"label":       "UTID",
 				"type":        "text",
-				"placeholder": "Enter the Utid here",
+				"placeholder": "Enter the UTID here",
 			}),
 		},
 		editor.Field{
 			View: editor.Input("SerialNumber", r, map[string]string{
 				"label":       "SerialNumber",
 				"type":        "text",
-				"placeholder": "Enter the SerialNumber here",
+				"placeholder": "Enter the Serial Number here",
 			}),
 		},
 		editor.Field{
 			View: editor.Input("SoftwareVersion", r, map[string]string{
 				"label":       "SoftwareVersion",
 				"type":        "text",
-				"placeholder": "Enter the SoftwareVersion here",
+				"placeholder": "Enter the Software Version here",
 			}),
 		},
 		editor.Field{
