@@ -7,4 +7,4 @@
 
 ### 2017-10-03
 
-This readme acts as a blog for Professor Howison's Technology Learning Studio course at the Universi ty of Texas at Austin. I'll document my learning process here.
+This readme acts as a blog for Professor Howison's Technology Learning Studio course at the University of Texas at Austin. I'll document my learning process here.
